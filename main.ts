@@ -3,11 +3,11 @@
 import inquirer from "inquirer"
 
 const quiz: {
-    Question1: string,
+    Question1:string;
     Question2:string;
     Question3:string;
     Question4:string;
-    Question5:string
+    Question5:string;
 } = await inquirer.prompt(
     [
         {
